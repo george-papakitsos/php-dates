@@ -1,0 +1,29 @@
+{
+    "name": "gpapakitsos/php-dates",
+    "description": "Some helper methods for nesbot/carbon",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "George Papakitsos",
+            "email": "papakitsos_george@yahoo.gr",
+            "homepage": "https://papakitsos.gr"
+        }
+    ],
+    "require": {
+        "nesbot/carbon": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "GPapakitsos\\PHPdates\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/george-papakitsos/php-dates"
+        }
+    ]
+}
